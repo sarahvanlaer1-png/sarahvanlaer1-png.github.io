@@ -1,0 +1,1 @@
+document.querySelector('[data-copy]').addEventListener('click',async(e)=>{const text=e.currentTarget.dataset.copy;try{await navigator.clipboard.writeText(text);document.getElementById('status').textContent='邮箱已复制';}catch{document.getElementById('status').textContent='请长按或选中邮箱复制：'+text;}});
