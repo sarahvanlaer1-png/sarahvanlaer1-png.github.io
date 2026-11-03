@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./display-0.woff2) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./editorial-subset.woff2) format('woff2');
+}
+
